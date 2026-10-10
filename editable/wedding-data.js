@@ -111,6 +111,13 @@ window.WEDDING_DATA = {
         captionGu: "વ્હાલભરી યાદો",
       },
       {
+        id: "photo-3",
+        url: "./editable/assets/customer-photo-3.jpg",
+        caption: "શુભ સંગાથ",
+        captionSub: "જશ અને ક્રિશા (Jash & Krisha)",
+        captionGu: "શુભ સંગાથ",
+      },
+      {
         id: "photo-2",
         url: "./editable/assets/customer-photo-2.jpg",
         caption: "મીઠી સ્મૃતિઓ",

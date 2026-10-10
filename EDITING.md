@@ -40,6 +40,7 @@ This interactive engagement invitation is designed in an authentic royal Gujarat
 
 ### ૫. મધુર સ્મૃતિઓ (Photo Memories)
 - `editable/assets/customer-photo-1.jpg`: `વ્હાલભરી યાદો` — ચિ. જશ (બાળપણના સંસ્મરણો)
+- `editable/assets/customer-photo-3.jpg`: `શુભ સંગાથ` — જશ અને ક્રિશા (નવયુગલ સ્મૃતિ)
 - `editable/assets/customer-photo-2.jpg`: `મીઠી સ્મૃતિઓ` — ચિ. ક્રિશા (લાડકોડની ક્ષણો)
 
 ### ૬. મંગલ શરણાઈ સંગીત (Music & Audio)
