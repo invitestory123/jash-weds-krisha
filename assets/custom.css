@@ -1,0 +1,415 @@
+/* custom.css — Royal Gujarati Theme for Jash & Krisha Engagement Ceremony (શુભ સગાઈ મહોત્સવ) */
+
+:root {
+  --font-gu-serif: 'Noto Serif Gujarati', 'Anek Gujarati', Georgia, serif;
+  --font-gu-sans: 'Anek Gujarati', 'Noto Sans Gujarati', sans-serif;
+  --kumkum: #9B1B30;
+  --kesar: #D4791E;
+  --gold: #D4AF37;
+  --ink: #3C2D19;
+  --paper: #FAF5EC;
+  --sepia: #8E6F3E;
+  --olive: #687259;
+}
+
+/* Base typography for Gujarati language */
+html, body {
+  font-family: var(--font-gu-sans) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gujarati-text,
+:lang(gu) {
+  font-family: var(--font-gu-sans) !important;
+  letter-spacing: normal !important;
+}
+
+/* Headings and Script font styling in Gujarati */
+.script,
+.font-serif,
+h1, h2, h3, h4 {
+  font-family: var(--font-gu-serif) !important;
+  letter-spacing: normal !important;
+}
+
+/* In Gujarati, uppercase doesn't exist, and high tracking breaks matras */
+.caps {
+  letter-spacing: 0.06em !important;
+  text-transform: none !important;
+}
+
+/* Auspicious Shloka Banner */
+.shloka-banner {
+  background: color-mix(in oklab, var(--paper) 95%, #fff);
+  border: 1px solid color-mix(in oklab, var(--gold) 55%, transparent);
+  border-radius: 12px;
+  padding: 12px 20px;
+  display: inline-block;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 24px -12px rgba(155, 27, 48, 0.25);
+}
+
+.shloka-text {
+  font-family: var(--font-gu-serif) !important;
+  color: var(--kumkum);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+}
+
+/* Family Section Royal Cards */
+.family-card {
+  position: relative;
+  background: color-mix(in oklab, var(--paper) 94%, #fff);
+  border: 1px solid color-mix(in oklab, var(--gold) 45%, var(--border));
+  border-radius: 18px;
+  padding: 28px 24px;
+  text-align: center;
+  box-shadow: 0 16px 40px -20px rgba(60, 45, 25, 0.35), 0 0 0 1px rgba(212, 175, 55, 0.12) inset;
+  transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1), box-shadow 0.4s ease;
+}
+
+.family-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 48px -18px rgba(60, 45, 25, 0.45);
+  border-color: var(--gold);
+}
+
+.family-badge {
+  display: inline-block;
+  font-family: var(--font-gu-sans) !important;
+  font-size: 0.68rem !important;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--kumkum) !important;
+  background: color-mix(in oklab, var(--gold) 18%, #fff);
+  border: 1px solid color-mix(in oklab, var(--gold) 50%, transparent);
+  padding: 5px 16px;
+  border-radius: 9999px;
+  margin-bottom: 14px;
+}
+
+/* Event Details Banner */
+.event-card {
+  position: relative;
+  background: color-mix(in oklab, var(--paper) 92%, #fff);
+  border: 1px solid color-mix(in oklab, var(--gold) 45%, var(--border));
+  border-radius: 20px;
+  padding: 34px 26px;
+  box-shadow: 0 18px 45px -22px rgba(60, 45, 25, 0.4), 0 0 0 1px rgba(212, 175, 55, 0.15) inset;
+}
+
+/* Photo Section & Customer Photo Cards */
+.photo-card {
+  position: relative;
+  background: color-mix(in oklab, var(--paper) 95%, #fff);
+  border: 1px solid color-mix(in oklab, var(--gold) 40%, var(--border));
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 14px 35px -18px rgba(60, 45, 25, 0.35);
+  transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1), box-shadow 0.4s ease;
+}
+
+.photo-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 45px -16px rgba(60, 45, 25, 0.45);
+  border-color: var(--gold);
+}
+
+.photo-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 12px;
+  overflow: hidden;
+  background: color-mix(in oklab, var(--paper-deep) 60%, transparent);
+  border: 1px solid color-mix(in oklab, var(--gold) 30%, transparent);
+}
+
+.photo-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.6s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.photo-card:hover .photo-image-wrapper img {
+  transform: scale(1.04);
+}
+
+/* Floating Music Control Button */
+.floating-music-btn {
+  position: fixed;
+  bottom: 84px;
+  right: 20px;
+  z-index: 45;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: color-mix(in oklab, var(--kumkum) 85%, #20150b);
+  border: 1.5px solid color-mix(in oklab, var(--gold) 80%, transparent);
+  box-shadow: 0 10px 25px -8px rgba(0, 0, 0, 0.5), 0 0 12px -2px rgba(212, 175, 55, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--paper);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.floating-music-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 30px -6px rgba(0, 0, 0, 0.6), 0 0 18px 0 rgba(212, 175, 55, 0.5);
+}
+
+.floating-music-btn:active {
+  transform: scale(0.95);
+}
+
+/* View Location Button */
+.view-location-btn {
+  display: flex !important;
+  width: 100% !important;
+  max-width: 320px !important;
+  min-height: 52px !important;
+  margin: 24px auto 0 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  border-radius: 9999px !important;
+  background-color: var(--ink, #20150b) !important;
+  color: var(--paper, #FAF5EC) !important;
+  font-family: var(--font-gu-sans) !important;
+  font-size: 0.76rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-decoration: none !important;
+  box-shadow: 0 10px 25px -8px rgba(0, 0, 0, 0.4) !important;
+  transition: all 0.3s ease !important;
+}
+
+.view-location-btn:hover {
+  opacity: 0.92 !important;
+  transform: translateY(-1px) scale(1.01) !important;
+  box-shadow: 0 14px 28px -6px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* =========================================================
+   ENTRANCE SCREEN TYPOGRAPHY & LOGO
+   ========================================================= */
+.entrance-logo-wrapper {
+  filter: drop-shadow(0 2px 8px rgba(212, 175, 55, 0.25));
+  transition: transform 0.4s ease;
+}
+
+.entrance-logo-wrapper:hover {
+  transform: scale(1.04);
+}
+
+.entrance-event-type {
+  font-family: var(--font-gu-sans) !important;
+  font-size: 0.8rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.12em !important;
+  color: var(--kumkum, #9B1B30) !important;
+}
+
+.entrance-names {
+  font-family: var(--font-gu-serif) !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  color: var(--gold, #D4AF37) !important;
+  text-shadow: 0 1px 2px rgba(212, 175, 55, 0.2);
+}
+
+.entrance-date {
+  font-family: var(--font-gu-sans) !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  color: var(--ink, #20150b) !important;
+  opacity: 0.9 !important;
+}
+
+.entrance-venue {
+  font-family: var(--font-gu-serif) !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.06em !important;
+  color: var(--sepia, #8E6F3E) !important;
+  opacity: 0.95 !important;
+}
+
+.entrance-city {
+  font-family: var(--font-gu-sans) !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  color: var(--sepia, #8E6F3E) !important;
+  opacity: 0.85 !important;
+}
+
+/* TAP TO OPEN PILL & BLINK SIGN */
+.entrance-tap-container {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.entrance-tap-pill {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 9px 24px;
+  border-radius: 9999px;
+  background: color-mix(in oklab, var(--paper, #FAF5EC) 94%, #ffffff);
+  border: 1.5px solid color-mix(in oklab, var(--gold, #D4AF37) 85%, transparent);
+  box-shadow: 0 4px 18px -2px rgba(212, 175, 55, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.7) inset;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+  animation: tapPulseGlow 2.2s infinite ease-in-out;
+}
+
+.entrance-tap-pill:hover {
+  transform: scale(1.05);
+  border-color: var(--gold, #D4AF37);
+  box-shadow: 0 6px 26px rgba(212, 175, 55, 0.65);
+}
+
+@keyframes tapPulseGlow {
+  0%, 100% {
+    box-shadow: 0 4px 18px -2px rgba(212, 175, 55, 0.35), 0 0 0 0 rgba(212, 175, 55, 0.5);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 6px 26px 2px rgba(212, 175, 55, 0.6), 0 0 0 9px rgba(212, 175, 55, 0);
+    transform: scale(1.035);
+  }
+}
+
+.entrance-blink-sign {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+}
+
+.entrance-blink-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #D4AF37;
+  box-shadow: 0 0 8px #D4AF37;
+  animation: tapBlinkBeacon 1.2s infinite ease-in-out;
+}
+
+.entrance-blink-ring {
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  border: 1.2px solid #D4AF37;
+  animation: tapBeaconRing 1.2s infinite ease-out;
+}
+
+@keyframes tapBlinkBeacon {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+    background: #D4AF37;
+    box-shadow: 0 0 10px #D4AF37;
+  }
+  50% {
+    opacity: 0.2;
+    transform: scale(0.65);
+    background: #8E6F3E;
+    box-shadow: 0 0 2px transparent;
+  }
+}
+
+@keyframes tapBeaconRing {
+  0% {
+    opacity: 0.85;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+.entrance-tap-text {
+  font-family: var(--font-gu-sans) !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  color: var(--ink, #20150b) !important;
+}
+
+.entrance-tap-sparkle {
+  color: var(--gold, #D4AF37);
+  font-size: 0.78rem;
+  animation: sparkleNudge 1.6s infinite ease-in-out;
+}
+
+@keyframes sparkleNudge {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 0.85;
+  }
+  50% {
+    transform: scale(1.2) rotate(14deg);
+    opacity: 1;
+  }
+}
+
+.entrance-tap-hint {
+  font-family: var(--font-gu-sans) !important;
+  font-size: 0.65rem !important;
+  letter-spacing: 0.06em !important;
+  color: var(--sepia, #8E6F3E) !important;
+  opacity: 0.85 !important;
+  animation: hintBlink 2.4s infinite ease-in-out;
+}
+
+@keyframes hintBlink {
+  0%, 100% { opacity: 0.85; }
+  50% { opacity: 0.45; }
+}
+
+/* FAMILY SECTION LOCATION TAG */
+.family-location-tag {
+  font-family: var(--font-gu-sans) !important;
+  font-size: 0.76rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  color: var(--sepia, #8E6F3E) !important;
+  opacity: 0.95 !important;
+  margin-top: 16px !important;
+}
+
+/* Mobile Tweaks */
+@media (max-width: 640px) {
+  .family-card {
+    padding: 22px 18px;
+  }
+  .floating-music-btn {
+    bottom: 78px;
+    right: 14px;
+    width: 44px;
+    height: 44px;
+  }
+  .shloka-text {
+    font-size: 0.84rem;
+  }
+}

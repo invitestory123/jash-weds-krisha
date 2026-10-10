@@ -1,0 +1,5 @@
+scratch/
+*.bak
+*.pre_gujarati_bak
+.DS_Store
+Thumbs.db
