@@ -338,50 +338,50 @@ function FamilySection_(){
 function PhotoSection_(){
   let photos = ($.images && $.images.customerPhotos && $.images.customerPhotos.length > 0) ? $.images.customerPhotos : [
     {
-      id: photo-1,
-      url: ./editable/assets/customer-photo-1.jpg,
-      caption: વ્હાલભરી યાદો,
-      captionSub: ચિ. જશ (બાળપણના સંસ્મરણો)
+      id: "photo-1",
+      url: "./editable/assets/customer-photo-1.jpg",
+      caption: "વ્હાલભરી યાદો",
+      captionSub: "ચિ. જશ (બાળપણના સંસ્મરણો)"
     },
     {
-      id: photo-3,
-      url: ./editable/assets/customer-photo-3.jpg,
-      caption: શુભ સંગાથ,
-      captionSub: જશ અને ક્રિશા (Jash & Krisha)
+      id: "photo-3",
+      url: "./editable/assets/customer-photo-3.jpg",
+      caption: "શુભ સંગાથ",
+      captionSub: "જશ અને ક્રિશા (Jash & Krisha)"
     },
     {
-      id: photo-2,
-      url: ./editable/assets/customer-photo-2.jpg,
-      caption: મીઠી સ્મૃતિઓ,
-      captionSub: ચિ. ક્રિશા (લાડકોડની ક્ષણો)
+      id: "photo-2",
+      url: "./editable/assets/customer-photo-2.jpg",
+      caption: "મીઠી સ્મૃતિઓ",
+      captionSub: "ચિ. ક્રિશા (લાડકોડની ક્ષણો)"
     }
   ];
 
-  return (0,O.jsxs)(section,{id:photo-gallery,className:px-6 py-14 text-center sm:py-20 max-w-5xl mx-auto,children:[
+  return (0,O.jsxs)("section",{id:"photo-gallery",className:"px-6 py-14 text-center sm:py-20 max-w-5xl mx-auto",children:[
     (0,O.jsxs)(Xg,{children:[
-      (0,O.jsx)(Yg,{className:mb-8}),
-      (0,O.jsx)(span,{className:amily-badge,children:મધુર સ્મૃતિઓ}),
-      (0,O.jsx)(h2,{className:script mt-3 text-3xl sm:text-5xl text-ink leading-tight,children:યાદગાર સ્મરણો અને ક્ષણો}),
-      (0,O.jsx)(p,{className:caps mt-2 text-[0.62rem] tracking-wider text-sepia/85 font-semibold,children:સ્નેહ અને પ્રેમભરી પળો})
+      (0,O.jsx)(Yg,{className:"mb-8"}),
+      (0,O.jsx)("span",{className:"family-badge",children:"મધુર સ્મૃતિઓ"}),
+      (0,O.jsx)("h2",{className:"script mt-3 text-3xl sm:text-5xl text-ink leading-tight",children:"યાદગાર સ્મરણો અને ક્ષણો"}),
+      (0,O.jsx)("p",{className:"caps mt-2 text-[0.62rem] tracking-wider text-sepia/85 font-semibold",children:"સ્નેહ અને પ્રેમભરી પળો"})
     ]}),
 
-    (0,O.jsx)(Xg,{delay:.18,children:(0,O.jsx)(div,{
-      className:mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto items-stretch,
-      children: photos.map((p, idx)=>(0,O.jsxs)(div,{
+    (0,O.jsx)(Xg,{delay:.18,children:(0,O.jsx)("div",{
+      className:"mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto items-stretch",
+      children: photos.map((p, idx)=>(0,O.jsxs)("div",{
         key: p.id || idx,
-        className:photo-card flex flex-col justify-between,
+        className:"photo-card flex flex-col justify-between",
         children:[
-          (0,O.jsx)(div,{className:photo-image-wrapper,children:
-            (0,O.jsx)(img,{
+          (0,O.jsx)("div",{className:"photo-image-wrapper",children:
+            (0,O.jsx)("img",{
               src: p.url,
-              alt: p.caption || મધુર સ્મૃતિઓ,
-              loading:lazy,
-              className:size-full object-cover
+              alt: p.caption || "મધુર સ્મૃતિઓ",
+              loading:"lazy",
+              className:"size-full object-cover"
             })
           }),
-          (0,O.jsxs)(div,{className:mt-3,children:[
-            (0,O.jsx)(p,{className:caps text-xs sm:text-sm font-bold text-ink,children: p.caption}),
-            (0,O.jsx)(p,{className:	ext-[0.62rem] sm:text-xs text-sepia mt-0.5 font-medium,children: p.captionSub || p.captionGu || `})
+          (0,O.jsxs)("div",{className:"mt-3",children:[
+            (0,O.jsx)("p",{className:"caps text-xs sm:text-sm font-bold text-ink",children: p.caption}),
+            (0,O.jsx)("p",{className:"text-[0.62rem] sm:text-xs text-sepia mt-0.5 font-medium",children: p.captionSub || p.captionGu || ""})
           ]})
         ]
       }))

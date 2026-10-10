@@ -59,6 +59,50 @@ h1, h2, h3, h4 {
   line-height: 1.6;
 }
 
+/* =========================================================
+   ROYAL FIRST PAGE / HERO COUPLE PORTRAIT
+   ========================================================= */
+.hero-couple-container {
+  position: relative;
+  margin: 22px auto 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-couple-img,
+#root section:first-of-type img[src*="couple"],
+#invitation img[src*="couple"],
+main > section:first-of-type img[src*="couple"] {
+  max-width: 290px !important;
+  width: 100% !important;
+  aspect-ratio: 4 / 5 !important;
+  object-fit: cover !important;
+  object-position: center 20% !important;
+  border-radius: 180px 180px 24px 24px !important;
+  border: 3.5px solid var(--gold, #D4AF37) !important;
+  box-shadow: 0 20px 48px -14px rgba(60, 45, 25, 0.5), 0 0 0 4px #FAF5EC, 0 0 28px rgba(212, 175, 55, 0.35) !important;
+  margin-inline: auto !important;
+  transition: transform 0.4s ease, box-shadow 0.4s ease !important;
+}
+
+.hero-couple-img:hover {
+  transform: translateY(-2px) scale(1.015);
+  box-shadow: 0 24px 54px -12px rgba(60, 45, 25, 0.6), 0 0 0 4px #FAF5EC, 0 0 34px rgba(212, 175, 55, 0.5) !important;
+}
+
+/* Entrance Cover Medallion (Cover Photo) */
+.entrance-couple-medallion {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 2px solid var(--gold, #D4AF37);
+  box-shadow: 0 4px 16px rgba(212, 175, 55, 0.4), 0 0 0 3px #FAF5EC;
+  object-fit: cover;
+  object-position: center 20%;
+  margin-bottom: 6px;
+}
+
 /* Family Section Royal Cards */
 .family-card {
   position: relative;
