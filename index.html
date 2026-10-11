@@ -24,6 +24,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@400;500;600;700;800&family=Noto+Serif+Gujarati:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
 
+    <!-- Trailing slash redirect for GitHub Pages / subpaths -->
+    <script>
+      (function() {
+        if (location.protocol.indexOf('http') === 0) {
+          var p = location.pathname;
+          if (p && !p.endsWith('/') && !p.split('/').pop().includes('.')) {
+            location.replace(p + '/' + location.search + location.hash);
+          }
+        }
+      })();
+    </script>
+
     <!-- Editable Data & Bundled App -->
     <script src="./editable/wedding-data.js"></script>
     <script type="module" crossorigin src="./assets/index-2d1L6cXj.js"></script>
@@ -31,19 +43,32 @@
     <link rel="stylesheet" href="./assets/custom.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Pre-hydration Royal Gujarati Loader (Replaced automatically when React loads) -->
+      <div style="min-height:100svh;display:flex;align-items:center;justify-content:center;background:#FAF5EC;padding:24px;text-align:center;font-family:'Noto Serif Gujarati',serif;color:#3C2D19;">
+        <div style="max-width:380px;width:100%;background:#FFFDF9;border:1.5px solid #D4AF37;border-radius:18px;padding:36px 24px;box-shadow:0 12px 32px rgba(60,45,25,0.12);">
+          <p style="font-size:13px;font-weight:700;letter-spacing:0.06em;color:#D4AF37;margin-bottom:12px;">॥ શ્રી ગણેશાય નમઃ ॥</p>
+          <div style="width:48px;height:48px;border-radius:50%;border:2px dashed #D4AF37;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;color:#D4AF37;font-weight:700;font-size:16px;">J &amp; K</div>
+          <h2 style="font-size:24px;color:#8B2500;margin:0 0 6px;">જશ અને ક્રિશા</h2>
+          <p style="font-size:12px;color:#8E6F3E;margin:0 0 16px;font-weight:600;letter-spacing:0.04em;">શુભ સગાઈ મહોત્સવ</p>
+          <div style="display:inline-block;width:24px;height:24px;border:2.5px solid #D4AF37;border-top-color:transparent;border-radius:50%;animation:spin 1s linear infinite;"></div>
+          <p style="font-size:11px;color:#7A6B58;margin-top:12px;">કંકોતરી લોડ થઈ રહી છે...</p>
+        </div>
+      </div>
+      <style>@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }</style>
+    </div>
     <script>
       // Fallback helper if user opens directly via file:// where ES modules are restricted by browsers
       if (window.location.protocol === 'file:') {
         window.addEventListener('DOMContentLoaded', function () {
           setTimeout(function () {
             var r = document.getElementById('root');
-            if (!r || r.children.length === 0) {
+            if (r && r.querySelector('style')) {
               var box = document.createElement('div');
               box.style.cssText = 'position:fixed;inset:0;background:#FAF5EC;display:flex;align-items:center;justify-content:center;padding:20px;font-family:sans-serif;z-index:99999;color:#3C2D19;';
               box.innerHTML = '<div style="max-width:500px;background:#fff;border:1px solid #D4AF37;border-radius:12px;padding:32px;box-shadow:0 10px 30px rgba(0,0,0,0.1);text-align:center;">'
                 + '<h2 style="font-size:22px;color:#8B2500;margin:0 0 12px;font-family:\'Noto Serif Gujarati\', serif;">જશ અને ક્રિશા — શુભ સગાઈ આમંત્રણ</h2>'
-                + '<p style="font-size:14px;color:#555;line-height:1.6;margin-bottom:18px;">બ્રાઉઝરમાં મોડ્યુલ સ્ક્રિપ્ટ્સ લોકલ ફાઈલ (<code>file://</code>) માટે પ્રતિબંધિત હોઈ શકે છે.</p>'
+                + '<p style="font-size:14px;color:#555;line-height:1.6;margin-bottom:18px;">બ્રાઉઝરમાં મોડ્યુલ સ્ક્રિપ્ટ્સ લોકલ ફાઈલ (<code>file://</code>) માટે પ્રતિબંધિત હોય છે.</p>'
                 + '<div style="background:#FAF5EC;border-left:4px solid #D4AF37;padding:12px 14px;text-align:left;font-size:13px;margin-bottom:16px;">'
                 + '<strong>આમંત્રણ જોવા માટે:</strong><br/>'
                 + '1. આ ફોલ્ડરમાં <b>preview.bat</b> ફાઈલ પર ડબલ ક્લિક કરો, અથવા<br/>'
@@ -54,7 +79,7 @@
                 + '</div>';
               document.body.appendChild(box);
             }
-          }, 1500);
+          }, 2500);
         });
       }
     </script>
