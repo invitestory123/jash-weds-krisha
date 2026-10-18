@@ -149,14 +149,9 @@ function r_(){
     (0,O.jsx)(Q.p,{className:`font-serif mt-3 text-3xl sm:text-5xl font-semibold tracking-wide text-ink`,initial:{opacity:0,y:16},animate:e?{opacity:1,y:0}:{opacity:0,y:16},transition:{duration:1.1,delay:.15,ease:c},children:$.displayDate||`૧૩ નવેમ્બર ૨૦૨૬`}),
     (0,O.jsx)(Q.p,{className:`caps mt-2 text-sm sm:text-base text-sepia tracking-wide font-bold`,initial:{opacity:0},animate:e?{opacity:1}:{opacity:0},transition:{duration:1,delay:.2},children:$.timeLine||`સવારે ૯:૦૦ કલાકે (શુભ મુહૂર્ત)`}),
     (0,O.jsx)(Q.div,{style:{y:r,opacity:a},className:`mt-6 w-full max-w-sm sm:max-w-md`,children:(0,O.jsx)(Q.img,{src:y_,alt:`જશ અને ક્રિશા`,width:1024,height:1024,draggable:!1,className:`mx-auto w-full select-none`,initial:{opacity:0,scale:.96},animate:e?{opacity:1,scale:1}:{opacity:0,scale:.96},transition:{duration:1.4,delay:.3,ease:c}})}),
-    (0,O.jsx)(Q.p,{className:`caps mt-6 max-w-md text-xs leading-[2] text-olive font-medium sm:text-sm`,initial:{opacity:0},animate:e?{opacity:1}:{opacity:0},transition:{duration:1,delay:.7},children:$.invitationLine||`સ્નેહી શ્રી, પરમકૃપાળુ પરમાત્મા તથા વડીલોના શુભ આશીર્વાદથી અમારા સુપુત્ર અને સુપુત્રીના શુભ સગાઈ મહોત્સવનું સ્નેહભર્યું આમંત્રણ...`}),
-    (0,O.jsxs)(Q.h1,{className:`script mt-3 text-[2.5rem] leading-[1.1] text-ink sm:text-6xl`,initial:`hidden`,animate:l,children:[
-      (0,O.jsx)(`span`,{className:`inline-block`,children:$.groom}),
-      (0,O.jsx)(`span`,{className:`mx-2 text-gold sm:mx-4`,children:`અને`}),
-      (0,O.jsx)(`span`,{className:`inline-block`,children:$.bride})
-    ]}),
-    (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-serif text-sepia/80 mt-1`,children:`Jash & Krisha`}),
-    (0,O.jsx)(`p`,{className:`caps mt-3 text-xs sm:text-sm text-sepia/90 tracking-wide font-semibold`,children:`શ્રી ખમાલાઈ માતાજી મંદિર, મણુંદ, ગુજરાત`}),
+    (0,O.jsx)(Q.p,{className:`caps mt-6 max-w-md text-xs leading-[2] text-olive font-medium sm:text-sm`,initial:{opacity:0},animate:e?{opacity:1}:{opacity:0},transition:{duration:1,delay:.7},children:$.invitationLine||`સ્નેહી શ્રી, પરમકૃપાળુ પરમાત્મા તથા વડીલોના શુભ આશીર્વાદથી અમારા સુપુત્ર અને સુપુત્રીના શુભ પ્રસંગે સ્નેહભર્યું આમંત્રણ...`}),
+    (0,O.jsx)(Q.h1,{className:`script mt-3 text-[2.5rem] leading-[1.1] text-ink sm:text-6xl`,initial:`hidden`,animate:l,children:`જશ & ક્રિશા`}),
+    (0,O.jsx)(`p`,{className:`caps mt-3 text-xs sm:text-sm text-sepia/90 tracking-wide font-semibold`,children:`શ્રી ખમાલાઈ માતાજી મંદિર, મણુંદ`}),
     (0,O.jsxs)(Q.button,{type:`button`,onClick:e=>{e.stopPropagation(),d()},"aria-label":`કંકોતરી આગળ વાંચો`,className:`mt-8 flex min-h-14 flex-col items-center justify-end gap-2 px-8 pb-1`,initial:{opacity:0},animate:e?{opacity:1}:{opacity:0},transition:{duration:1,delay:1.8},whileTap:{scale:.95},children:[
       (0,O.jsx)(`span`,{className:`caps text-[0.56rem] tracking-wider text-sepia font-semibold`,children:`કંકોતરી વાંચો ↓`}),
       (0,O.jsx)(Q.span,{"aria-hidden":`true`,className:`size-2 rotate-45 border-b border-r border-sepia`,animate:{y:[0,4,0]},transition:{duration:1.6,repeat:1/0,ease:`easeInOut`}})
@@ -181,7 +176,7 @@ function r_(){
     ]})
   ]});
 }function C_(){
-  let noteText = $.invitationNote || `પરમકૃપાળુ પરમાત્મા તથા કુળદેવી શ્રી ખમાલાઈ માતાજીના પરમ આશીર્વાદથી, પટેલ પરિવાર (મણુંદ) અને પટેલ પરિવાર (બલિસણા) આપ સર્વે સ્નેહીજનો, વડીલો, સગા-સંબંધીઓ અને મિત્રવૃંદને જશ અને ક્રિશાના શુભ વાગ્દાન (સગાઈ) પ્રસંગે પધારી નવયુગલને મંગલ આશીર્વાદ પાઠવવા હાર્દિક ભાવભર્યું નિમંત્રણ પાઠવે છે.`;
+  let noteText = $.invitationNote || `પરમકૃપાળુ પરમાત્મા તથા કુળદેવી શ્રી ખમાલાઈ માતાજીના પરમ આશીર્વાદથી, પટેલ પરિવાર (મણુંદ) અને પટેલ પરિવાર (બલિસણા) આપ સર્વે સ્નેહીજનો, વડીલો, સગા-સંબંધીઓ અને મિત્રવૃંદને જશ અને ક્રિશાના શુભ સગાઈ પ્રસંગે પધારી આશીર્વાદ પાઠવવા હાર્દિક ભાવભર્યું નિમંત્રણ પાઠવે છે.`;
   let dayText = $.dayLine || `શુક્રવાર, ૧૩ નવેમ્બર ૨૦૨૬`;
   let timeText = $.timeLine || `સવારે ૯:૦૦ કલાકે (શુભ મુહૂર્ત)`;
   let venueName = ($.venue && $.venue.name) || `શ્રી ખમાલાઈ માતાજી મંદિર`;
@@ -189,7 +184,7 @@ function r_(){
 
   return (0,O.jsxs)(`section`,{id:`invitation-details`,className:`px-6 py-16 text-center sm:py-24 max-w-3xl mx-auto`,children:[
     (0,O.jsx)(Xg,{children:(0,O.jsx)(Yg,{className:`mb-8`})}),
-    (0,O.jsx)(Xg,{delay:.1,children:(0,O.jsx)(`div`,{className:`shloka-banner`,children:(0,O.jsx)(`p`,{className:`shloka-text`,children:`॥ વક્રતુંડ મહાકાય સૂર્યકોટિ સમપ્રભ । નિર્વિઘ્નં કુરુ મે દેવ સર્વકાર્યેષુ સર્વદા ॥`})})}),
+    
     (0,O.jsx)(Xg,{delay:.18,children:(0,O.jsx)(`p`,{className:`mx-auto mt-6 max-w-lg text-base sm:text-lg leading-[2] text-ink/90 font-serif`,children:noteText})}),
     (0,O.jsxs)(Xg,{delay:.26,children:[
       (0,O.jsxs)(`div`,{className:`event-card mt-10`,children:[
@@ -289,7 +284,6 @@ function FamilySection_(){
   return (0,O.jsxs)(`section`,{id:`family-section`,className:`px-6 py-14 text-center sm:py-20 max-w-4xl mx-auto`,children:[
     (0,O.jsxs)(Xg,{children:[
       (0,O.jsx)(Yg,{className:`mb-8`}),
-      (0,O.jsx)(`span`,{className:`family-badge`,children:`વડીલોના મંગલ આશીર્વાદ`}),
       (0,O.jsx)(`h2`,{className:`script mt-3 text-3xl sm:text-5xl text-ink leading-tight`,children:`પરિવાર પરિચય`}),
       (0,O.jsx)(`p`,{className:`caps mt-2 text-[0.62rem] tracking-wider text-sepia/85 font-semibold`,children:`પટેલ પરિવારના સ્નેહ વંદન`})
     ]}),
@@ -302,8 +296,7 @@ function FamilySection_(){
           className:`family-card flex flex-col justify-between`,
           children:[
             (0,O.jsxs)(`div`,{children:[
-              (0,O.jsx)(`span`,{className:`family-badge`,children:`વર પક્ષ`}),
-              (0,O.jsx)(`h3`,{className:`script text-2xl sm:text-4xl text-ink mt-2`,children:`ચિ. જશ (Jash)`}),
+              (0,O.jsx)(`h3`,{className:`script text-2xl sm:text-4xl text-ink mt-2`,children:`જશ (Jash)`}),
               (0,O.jsx)(`p`,{className:`caps mt-3 text-[0.62rem] text-gold font-bold tracking-wider`,children:`સુપુત્ર`}),
               (0,O.jsx)(`p`,{className:`mt-2 text-base sm:text-lg text-ink/90 font-serif leading-relaxed font-medium`,children:groomParents})
             ]}),
@@ -316,8 +309,7 @@ function FamilySection_(){
           className:`family-card flex flex-col justify-between`,
           children:[
             (0,O.jsxs)(`div`,{children:[
-              (0,O.jsx)(`span`,{className:`family-badge`,children:`કન્યા પક્ષ`}),
-              (0,O.jsx)(`h3`,{className:`script text-2xl sm:text-4xl text-ink mt-2`,children:`ચિ. સૌ. કાં. ક્રિશા (Krisha)`}),
+              (0,O.jsx)(`h3`,{className:`script text-2xl sm:text-4xl text-ink mt-2`,children:`ક્રિશા (Krisha)`}),
               (0,O.jsx)(`p`,{className:`caps mt-3 text-[0.62rem] text-gold font-bold tracking-wider`,children:`સુપુત્રી`}),
               (0,O.jsx)(`p`,{className:`mt-2 text-base sm:text-lg text-ink/90 font-serif leading-relaxed font-medium`,children:brideParents})
             ]}),
