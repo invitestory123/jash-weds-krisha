@@ -87,31 +87,19 @@ function r_(){
         (0,O.jsx)(u_,{className:`absolute -bottom-px -left-px size-16 -scale-y-100 text-gold/60 sm:size-20`}),
         (0,O.jsx)(u_,{className:`absolute -right-px -bottom-px size-16 -scale-100 text-gold/60 sm:size-20`})
       ]}),
+      (0,O.jsxs)(`div`,{className:`entrance-shloka-top absolute top-7 sm:top-9 inset-x-6 text-center select-none z-10 pointer-events-none`,children:[
+        (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-bold tracking-wider text-gold leading-relaxed`,children:`।। શ્રી ગણેશાય નમઃ ।।`}),
+        (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-bold tracking-wider text-gold leading-relaxed mt-0.5`,children:`।।શ્રી ખમલાઈ માતાજી નમઃ।।`})
+      ]}),
       (0,O.jsxs)(`div`,{className:`relative flex h-full flex-col items-center justify-center px-8 text-center select-none`,children:[
-        (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-bold tracking-wider text-gold mb-1.5`,children:`॥ શ્રી ગણેશાય નમઃ ॥ · ॥ શ્રી ખમાલાઈ માતાજી પ્રસન્ન ॥`}),
-        (0,O.jsxs)(`div`,{className:`entrance-logo-wrapper mb-2 sm:mb-3 flex flex-col items-center justify-center select-none`,children:[
-          (0,O.jsxs)(`svg`,{viewBox:`0 0 100 100`,className:`size-14 sm:size-16 text-gold drop-shadow-sm`,fill:`none`,"aria-hidden":`true`,children:[
-            (0,O.jsx)(`circle`,{cx:`50`,cy:`52`,r:`43`,stroke:`currentColor`,strokeWidth:`1`,strokeDasharray:`2 3`,opacity:`.6`}),
-            (0,O.jsx)(`circle`,{cx:`50`,cy:`52`,r:`39`,stroke:`currentColor`,strokeWidth:`1.2`,opacity:`.85`}),
-            (0,O.jsx)(`circle`,{cx:`50`,cy:`52`,r:`35`,stroke:`currentColor`,strokeWidth:`.6`,opacity:`.5`}),
-            (0,O.jsx)(`path`,{d:`M38 22 L35 12 L43 17 L50 9 L57 17 L65 12 L62 22 Z`,fill:`currentColor`,opacity:`.9`}),
-            (0,O.jsx)(`circle`,{cx:`50`,cy:`7.5`,r:`1.5`,fill:`currentColor`}),
-            (0,O.jsx)(`circle`,{cx:`35`,cy:`10.5`,r:`1.2`,fill:`currentColor`}),
-            (0,O.jsx)(`circle`,{cx:`65`,cy:`10.5`,r:`1.2`,fill:`currentColor`}),
-            (0,O.jsx)(`text`,{x:`50`,y:`58`,textAnchor:`middle`,className:`font-serif font-semibold`,style:{fontSize:`18px`,fill:`currentColor`,letterSpacing:`0.06em`},children:$.monogram||`J & K`}),
-            (0,O.jsx)(`path`,{d:`M42 66 Q50 70 58 66`,stroke:`currentColor`,strokeWidth:`.8`,strokeLinecap:`round`,opacity:`.7`}),
-            (0,O.jsx)(`circle`,{cx:`50`,cy:`70`,r:`1`,fill:`currentColor`})
-          ]})
-        ]}),
-        (0,O.jsx)(`p`,{className:`caps entrance-event-type text-[0.72rem] sm:text-[0.82rem] font-bold text-kumkum`,children:$.eventType||`શુભ સગાઈ મહોત્સવ`}),
+        (0,O.jsx)(`p`,{className:`caps entrance-event-type text-[0.78rem] sm:text-[0.88rem] font-bold text-kumkum`,children:`સગાઇ રસમ`}),
         (0,O.jsx)(f_,{className:`mt-2 w-32 text-gold/75`}),
         (0,O.jsx)(`p`,{className:`script mt-2 text-[2.75rem] leading-tight text-ink sm:text-[3.5rem]`,children:`સાદર આમંત્રણ`}),
-        (0,O.jsxs)(`p`,{className:`entrance-names mt-2 text-base sm:text-xl font-bold text-gold tracking-wide`,children:[$.groom,` અને `,$.bride]}),
-        (0,O.jsx)(`p`,{className:`text-[0.62rem] sm:text-[0.7rem] font-serif text-sepia mt-0.5`,children:`Jash & Krisha`}),
+        (0,O.jsx)(`p`,{className:`entrance-names mt-2 text-xl sm:text-2xl font-bold text-gold tracking-wide`,children:`જશ & ક્રિશા`}),
         (0,O.jsx)(f_,{className:`my-2 w-28 rotate-180 text-gold/60`}),
         (0,O.jsx)(`p`,{className:`caps entrance-date text-[0.78rem] sm:text-[0.86rem] font-semibold text-ink/90`,children:$.dayLine||`શુક્રવાર, ૧૩ નવેમ્બર ૨૦૨૬`}),
         (0,O.jsx)(`p`,{className:`caps entrance-venue mt-1.5 text-[0.72rem] sm:text-[0.8rem] font-semibold text-sepia`,children:$.venue.name||`શ્રી ખમાલાઈ માતાજી મંદિર`}),
-        (0,O.jsx)(`p`,{className:`caps entrance-city mt-1 text-[0.65rem] sm:text-[0.72rem] font-medium text-sepia/85`,children:`મણુંદ (ગુજરાત)`}),
+        (0,O.jsx)(`p`,{className:`caps entrance-city mt-1 text-[0.65rem] sm:text-[0.72rem] font-medium text-sepia/85`,children:`મણુંદ`}),
         (0,O.jsxs)(`div`,{className:`entrance-tap-container`,children:[
           (0,O.jsxs)(`div`,{className:`entrance-tap-pill`,children:[
             (0,O.jsxs)(`span`,{className:`entrance-blink-sign`,"aria-hidden":`true`,children:[
@@ -157,7 +145,7 @@ function r_(){
     (0,O.jsx)(h_,{}),
     o.map(e=>(0,O.jsx)(m_,{x:e.x,y:e.y,count:14,spread:130,seed:e.id%11},e.id)),
     (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-semibold tracking-wider text-gold mb-1.5`,children:`॥ શ્રી ગણેશાય નમઃ ॥ · ॥ શ્રી ખમાલાઈ માતાજી પ્રસન્ન ॥`}),
-    (0,O.jsx)(Q.p,{className:`caps text-[0.72rem] text-gold tracking-widest font-bold sm:text-sm`,initial:{opacity:0,y:12},animate:e?{opacity:1,y:0}:{opacity:0,y:12},transition:{duration:1,ease:c},children:`શુભ સગાઈ મહોત્સવ`}),
+    (0,O.jsx)(Q.p,{className:`caps text-[0.72rem] text-gold tracking-widest font-bold sm:text-sm`,initial:{opacity:0,y:12},animate:e?{opacity:1,y:0}:{opacity:0,y:12},transition:{duration:1,ease:c},children:`સગાઇ રસમ`}),
     (0,O.jsx)(Q.p,{className:`font-serif mt-3 text-3xl sm:text-5xl font-semibold tracking-wide text-ink`,initial:{opacity:0,y:16},animate:e?{opacity:1,y:0}:{opacity:0,y:16},transition:{duration:1.1,delay:.15,ease:c},children:$.displayDate||`૧૩ નવેમ્બર ૨૦૨૬`}),
     (0,O.jsx)(Q.p,{className:`caps mt-2 text-sm sm:text-base text-sepia tracking-wide font-bold`,initial:{opacity:0},animate:e?{opacity:1}:{opacity:0},transition:{duration:1,delay:.2},children:$.timeLine||`સવારે ૯:૦૦ કલાકે (શુભ મુહૂર્ત)`}),
     (0,O.jsx)(Q.div,{style:{y:r,opacity:a},className:`mt-6 w-full max-w-sm sm:max-w-md`,children:(0,O.jsx)(Q.img,{src:y_,alt:`જશ અને ક્રિશા`,width:1024,height:1024,draggable:!1,className:`mx-auto w-full select-none`,initial:{opacity:0,scale:.96},animate:e?{opacity:1,scale:1}:{opacity:0,scale:.96},transition:{duration:1.4,delay:.3,ease:c}})}),

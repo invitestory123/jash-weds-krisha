@@ -200,6 +200,19 @@ h1, h2, h3, h4 {
 /* =========================================================
    ENTRANCE SCREEN TYPOGRAPHY & LOGO
    ========================================================= */
+.entrance-shloka-top {
+  pointer-events: none;
+}
+
+.entrance-shloka-top p {
+  font-family: var(--font-gu-serif) !important;
+  color: var(--gold, #D4AF37) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  line-height: 1.4 !important;
+  text-shadow: 0 1px 2px rgba(212, 175, 55, 0.2);
+}
+
 .entrance-logo-wrapper {
   filter: drop-shadow(0 2px 8px rgba(212, 175, 55, 0.25));
   transition: transform 0.4s ease;
@@ -211,7 +224,7 @@ h1, h2, h3, h4 {
 
 .entrance-event-type {
   font-family: var(--font-gu-sans) !important;
-  font-size: 0.8rem !important;
+  font-size: 0.85rem !important;
   font-weight: 700 !important;
   letter-spacing: 0.12em !important;
   color: var(--kumkum, #9B1B30) !important;
@@ -219,7 +232,7 @@ h1, h2, h3, h4 {
 
 .entrance-names {
   font-family: var(--font-gu-serif) !important;
-  font-size: 1.15rem !important;
+  font-size: 1.35rem !important;
   font-weight: 700 !important;
   letter-spacing: 0.06em !important;
   color: var(--gold, #D4AF37) !important;
