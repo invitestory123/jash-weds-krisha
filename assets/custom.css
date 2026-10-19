@@ -201,10 +201,25 @@ h1, h2, h3, h4 {
    ENTRANCE SCREEN TYPOGRAPHY & LOGO
    ========================================================= */
 .entrance-shloka-top {
+  position: absolute !important;
+  top: 24px !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
   pointer-events: none;
+  z-index: 20;
 }
 
 .entrance-shloka-top p {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   font-family: var(--font-gu-serif) !important;
   color: var(--gold, #D4AF37) !important;
   font-weight: 700 !important;
@@ -224,9 +239,9 @@ h1, h2, h3, h4 {
 
 .entrance-event-type {
   font-family: var(--font-gu-sans) !important;
-  font-size: 0.85rem !important;
+  font-size: 1.15rem !important;
   font-weight: 700 !important;
-  letter-spacing: 0.12em !important;
+  letter-spacing: 0.14em !important;
   color: var(--kumkum, #9B1B30) !important;
 }
 
@@ -425,4 +440,20 @@ h1, h2, h3, h4 {
   .shloka-text {
     font-size: 0.84rem;
   }
+  .entrance-event-type {
+    font-size: 1.05rem !important;
+  }
+}
+
+/* Center single photo card if only couple photo is shown */
+#photo-gallery .grid {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
+#photo-gallery .photo-card {
+  max-width: 380px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
 }

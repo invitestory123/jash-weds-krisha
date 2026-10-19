@@ -87,9 +87,9 @@ function r_(){
         (0,O.jsx)(u_,{className:`absolute -bottom-px -left-px size-16 -scale-y-100 text-gold/60 sm:size-20`}),
         (0,O.jsx)(u_,{className:`absolute -right-px -bottom-px size-16 -scale-100 text-gold/60 sm:size-20`})
       ]}),
-      (0,O.jsxs)(`div`,{className:`entrance-shloka-top absolute top-7 sm:top-9 inset-x-6 text-center select-none z-10 pointer-events-none`,children:[
-        (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-bold tracking-wider text-gold leading-relaxed`,children:`।। શ્રી ગણેશાય નમઃ ।।`}),
-        (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-bold tracking-wider text-gold leading-relaxed mt-0.5`,children:`।।શ્રી ખમલાઈ માતાજી નમઃ।।`})
+      (0,O.jsxs)(`div`,{className:`entrance-shloka-top absolute top-7 sm:top-9 inset-x-0 w-full text-center select-none z-10 pointer-events-none`,style:{left:0,right:0,width:"100%",textAlign:"center"},children:[
+        (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-bold tracking-wider text-gold leading-relaxed`,style:{textAlign:"center",margin:"0 auto"},children:`।। શ્રી ગણેશાય નમઃ ।।`}),
+        (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-bold tracking-wider text-gold leading-relaxed mt-0.5`,style:{textAlign:"center",margin:"0 auto"},children:`।।શ્રી ખમલાઈ માતાજી નમઃ।।`})
       ]}),
       (0,O.jsxs)(`div`,{className:`relative flex h-full flex-col items-center justify-center px-8 text-center select-none`,children:[
         (0,O.jsx)(`p`,{className:`caps entrance-event-type text-[0.78rem] sm:text-[0.88rem] font-bold text-kumkum`,children:`સગાઇ રસમ`}),
@@ -176,7 +176,7 @@ function r_(){
     ]})
   ]});
 }function C_(){
-  let noteText = $.invitationNote || `પરમકૃપાળુ પરમાત્મા તથા કુળદેવી શ્રી ખમાલાઈ માતાજીના પરમ આશીર્વાદથી, પટેલ પરિવાર (મણુંદ) અને પટેલ પરિવાર (બલિસણા) આપ સર્વે સ્નેહીજનો, વડીલો, સગા-સંબંધીઓ અને મિત્રવૃંદને જશ અને ક્રિશાના શુભ સગાઈ પ્રસંગે પધારી આશીર્વાદ પાઠવવા હાર્દિક ભાવભર્યું નિમંત્રણ પાઠવે છે.`;
+  let noteText = ($.invitation && $.invitation.note) || $.invitationNote || `પરમકૃપાળુ પરમાત્મા તથા કુળદેવી શ્રી ખમાલાઈ માતાજીના પરમ આશીર્વાદથી, પટેલ પરિવાર આપ સર્વે સ્નેહીજનો, વડીલો, સગા-સંબંધીઓને જશ અને ક્રિશાના શુભ સગાઈ પ્રસંગે પધારી આશીર્વાદ પાઠવવા હાર્દિક ભાવભર્યું નિમંત્રણ પાઠવે છે.`;
   let dayText = $.dayLine || `શુક્રવાર, ૧૩ નવેમ્બર ૨૦૨૬`;
   let timeText = $.timeLine || `સવારે ૯:૦૦ કલાકે (શુભ મુહૂર્ત)`;
   let venueName = ($.venue && $.venue.name) || `શ્રી ખમાલાઈ માતાજી મંદિર`;
@@ -325,22 +325,10 @@ function FamilySection_(){
 function PhotoSection_(){
   let photos = ($.images && $.images.customerPhotos && $.images.customerPhotos.length > 0) ? $.images.customerPhotos : [
     {
-      id: "photo-1",
-      url: "./editable/assets/customer-photo-1.jpg",
-      caption: "વ્હાલભરી યાદો",
-      captionSub: "ચિ. જશ (બાળપણના સંસ્મરણો)"
-    },
-    {
       id: "photo-3",
       url: "./editable/assets/customer-photo-3.jpg",
       caption: "શુભ સંગાથ",
       captionSub: "જશ અને ક્રિશા (Jash & Krisha)"
-    },
-    {
-      id: "photo-2",
-      url: "./editable/assets/customer-photo-2.jpg",
-      caption: "મીઠી સ્મૃતિઓ",
-      captionSub: "ચિ. ક્રિશા (લાડકોડની ક્ષણો)"
     }
   ];
 
