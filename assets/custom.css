@@ -457,3 +457,15 @@ h1, h2, h3, h4 {
   width: 100% !important;
   margin: 0 auto !important;
 }
+
+/* Hero couple names on inner page */
+.hero-couple-names {
+  font-size: 3.15rem !important;
+  line-height: 1.15 !important;
+}
+
+@media (min-width: 640px) {
+  .hero-couple-names {
+    font-size: 4.5rem !important;
+  }
+}
