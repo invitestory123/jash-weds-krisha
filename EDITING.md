@@ -1,7 +1,7 @@
 # ગ્રાહક માર્ગદર્શિકા — શુભ સગાઈ કંકોતરી (ચિ. જશ અને ચિ. સૌ. કાં. ક્રિશા)
 # Customer Editing Guide — Marigold Bhavan (Jash & Krisha Engagement Ceremony)
 
-આ આમંત્રણ પત્રિકા શુદ્ધ અને પરંપરાગત ગુજરાતી સંસ્કૃતિ અનુસાર તૈયાર કરવામાં આવી છે. તેમાં શાહી રોયલ એન્ટ્રન્સ ગેટ, પવિત્ર મંગલ શ્લોક (॥ શ્રી ગણેશાય નમઃ ॥ અને ॥ શ્રી ખમાલાઈ માતાજી પ્રસન્ન ॥), વર-કન્યા અને પરિવાર પરિચય, શુભ મુહૂર્ત અને સ્થળ દર્શન, યાદગાર બાળપણના સંસ્મરણો તથા ગૂગલ મેપ્સ માર્ગદર્શન શામેલ છે.
+આ આમંત્રણ પત્રિકા શુદ્ધ અને પરંપરાગત ગુજરાતી સંસ્કૃતિ અનુસાર તૈયાર કરવામાં આવી છે. તેમાં શાહી રોયલ એન્ટ્રન્સ ગેટ, પવિત્ર મંગલ શ્લોક (॥ શ્રી ગણેશાય નમઃ ॥ અને ॥ શ્રી ખમલાઈ માતાજી પ્રસન્ન ॥), વર-કન્યા અને પરિવાર પરિચય, શુભ મુહૂર્ત અને સ્થળ દર્શન, યાદગાર બાળપણના સંસ્મરણો તથા ગૂગલ મેપ્સ માર્ગદર્શન શામેલ છે.
 
 This interactive engagement invitation is designed in an authentic royal Gujarati cultural theme with Ganesha invocations, Kuldevi blessings, complete Gujarati typography, family details, auspicious muhurat, countdown, customer photo memories, and venue directions.
 
@@ -25,7 +25,7 @@ This interactive engagement invitation is designed in an authentic royal Gujarat
 - **કન્યા પક્ષ (Bride's Side)**:
   - સુપુત્રી: `ચિ. સૌ. કાં. ક્રિશા`
   - માતા-પિતા: `શ્રીમતી વૈશાલીબેન અને શ્રી પીયૂષભાઈ કરશનભાઈ પટેલ`
-  - સ્થાન: `પટેલ પરિવાર • બલિસણા`
+  - સ્થાન: `પટેલ પરિવાર • બાલીસણા`
 
 ### ૩. શુભ તારીખ અને મુહૂર્ત (Auspicious Date & Time)
 - શુભ પ્રસંગ: `શુભ સગાઈ મહોત્સવ` (Engagement Ceremony)
@@ -34,7 +34,7 @@ This interactive engagement invitation is designed in an authentic royal Gujarat
 - કાઉન્ટડાઉન પ્રારંભ: `2026-11-13T09:00:00+05:30`
 
 ### ૪. પવિત્ર મંગલ સ્થળ (Venue & Location)
-- સ્થળ: `શ્રી ખમાલાઈ માતાજી મંદિર`
+- સ્થળ: `શ્રી ખમલાઈ માતાજી મંદિર`
 - સરનામું: `મણુંદ, તાલુકો પાટણ, ગુજરાત - ૩૮૪૨૬૦`
 - ગૂગલ મેપ્સ દિશા: `https://www.google.com/maps/dir/?api=1&destination=Khamalaimata+Temple,+Manund,+Gujarat+384260`
 

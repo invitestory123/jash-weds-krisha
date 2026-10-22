@@ -26,7 +26,7 @@ Error generating stack: `+e.message+`
   return(0,O.jsx)(Q.nav,{"aria-label":`કંકોતરી સુવિધાઓ`,className:`fixed inset-x-0 bottom-0 z-40 px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))]`,initial:!1,animate:{y:e?0:120,opacity:+!!e},transition:{duration:o?0:.55,ease:[.22,.61,.36,1]},style:{pointerEvents:e?`auto`:`none`},children:(0,O.jsxs)(`div`,{className:`mx-auto flex max-w-md items-stretch gap-2 rounded-full border border-border/80 bg-paper/90 p-1.5 shadow-[0_18px_40px_-24px_rgba(60,45,25,0.7)] backdrop-blur-md`,children:[
     (0,O.jsx)(Q.button,{type:`button`,whileTap:{scale:.95},onClick:()=>{s(),qg(),r(!0),window.setTimeout(()=>r(!1),2500)},className:`caps flex min-h-14 flex-1 items-center justify-center rounded-full bg-ink px-3 text-xs font-bold text-paper`,children:n?`સાચવી લીધી ✓`:`તારીખ સાચવો`}),
     (0,O.jsx)(Q.a,{whileTap:{scale:.95},onClick:s,href:Hg,target:`_blank`,rel:`noreferrer`,className:`caps flex min-h-14 flex-1 items-center justify-center rounded-full border border-ink/20 px-3 text-xs font-bold text-ink`,children:`રસ્તો જુઓ`}),
-    (0,O.jsx)(Q.button,{type:`button`,whileTap:{scale:.95},onClick:async()=>{s();let e={title:`જશ અને ક્રિશા — શુભ સગાઈ મહોત્સવ`,text:`ચિ. જશ અને ચિ. સૌ. કાં. ક્રિશાના શુભ સગાઈ મહોત્સવનું ભાવભર્યું આમંત્રણ — શુક્રવાર, ૧૩ નવેમ્બર ૨૦૨૬, શ્રી ખમાલાઈ માતાજી મંદિર, મણુંદ.`,url:typeof window<`u`?window.location.href:``};try{navigator.share?await navigator.share(e):await navigator.clipboard.writeText(e.url)}catch{}},className:`caps flex min-h-14 min-w-14 items-center justify-center rounded-full border border-ink/20 px-4 text-xs font-bold text-ink`,children:i?`મોકલો`:`કોપી`})
+    (0,O.jsx)(Q.button,{type:`button`,whileTap:{scale:.95},onClick:async()=>{s();let e={title:`જશ અને ક્રિશા — શુભ સગાઈ મહોત્સવ`,text:`ચિ. જશ અને ચિ. સૌ. કાં. ક્રિશાના શુભ સગાઈ મહોત્સવનું ભાવભર્યું આમંત્રણ — શુક્રવાર, ૧૩ નવેમ્બર ૨૦૨૬, શ્રી ખમલાઈ માતાજી મંદિર, મણુંદ.`,url:typeof window<`u`?window.location.href:``};try{navigator.share?await navigator.share(e):await navigator.clipboard.writeText(e.url)}catch{}},className:`caps flex min-h-14 min-w-14 items-center justify-center rounded-full border border-ink/20 px-4 text-xs font-bold text-ink`,children:i?`મોકલો`:`કોપી`})
   ]})});
 }function Yg({className:e=``}){return(0,O.jsxs)(`div`,{"aria-hidden":`true`,className:`flex items-center justify-center gap-3 ${e}`,children:[(0,O.jsx)(`span`,{className:`h-px w-16 bg-gradient-to-r from-transparent to-border sm:w-24`}),(0,O.jsx)(`span`,{className:`size-1.5 rotate-45 border border-gold/70`}),(0,O.jsx)(`span`,{className:`h-px w-16 bg-gradient-to-l from-transparent to-border sm:w-24`})]})}function Xg({children:e,delay:t=0,y:n=22,className:r}){return(0,O.jsx)(Q.div,{className:r,initial:{opacity:0,y:n},whileInView:{opacity:1,y:0},viewport:{once:!0,margin:`-12% 0px`},transition:{duration:1,delay:t,ease:[.22,.61,.36,1]},children:e})}function Zg({text:e,className:t,delay:n=0,trigger:r}){let i=Array.from(e),a=r!==void 0;return(0,O.jsx)(Q.span,{className:t,"aria-label":e,initial:`hidden`,...a?{animate:r}:{whileInView:`show`},viewport:{once:!0,margin:`-15% 0px`},transition:{staggerChildren:.045,delayChildren:n},children:i.map((e,t)=>(0,O.jsx)(Q.span,{"aria-hidden":`true`,className:`inline-block`,variants:{hidden:{opacity:0,y:16,rotate:-3},show:{opacity:1,y:0,rotate:0}},transition:{duration:.7,ease:[.22,.61,.36,1]},children:e===` `?`\xA0`:e},`${e}-${t}`))})}var Qg=()=>{typeof navigator<`u`&&navigator.vibrate&&navigator.vibrate(10)};function $g(){
   let[e,t]=(0,b.useState)(!1);
@@ -98,7 +98,7 @@ function r_(){
         (0,O.jsx)(`p`,{className:`entrance-names mt-2 text-xl sm:text-2xl font-bold text-gold tracking-wide`,children:`જશ & ક્રિશા`}),
         (0,O.jsx)(f_,{className:`my-2 w-28 rotate-180 text-gold/60`}),
         (0,O.jsx)(`p`,{className:`caps entrance-date text-[0.78rem] sm:text-[0.86rem] font-semibold text-ink/90`,children:$.dayLine||`શુક્રવાર, ૧૩ નવેમ્બર ૨૦૨૬`}),
-        (0,O.jsx)(`p`,{className:`caps entrance-venue mt-1.5 text-[0.72rem] sm:text-[0.8rem] font-semibold text-sepia`,children:$.venue.name||`શ્રી ખમાલાઈ માતાજી મંદિર`}),
+        (0,O.jsx)(`p`,{className:`caps entrance-venue mt-1.5 text-[0.72rem] sm:text-[0.8rem] font-semibold text-sepia`,children:$.venue.name||`શ્રી ખમલાઈ માતાજી મંદિર`}),
         (0,O.jsx)(`p`,{className:`caps entrance-city mt-1 text-[0.65rem] sm:text-[0.72rem] font-medium text-sepia/85`,children:`મણુંદ`}),
         (0,O.jsxs)(`div`,{className:`entrance-tap-container`,children:[
           (0,O.jsxs)(`div`,{className:`entrance-tap-pill`,children:[
@@ -144,14 +144,14 @@ function r_(){
   return (0,O.jsxs)(`section`,{ref:t,onPointerDown:u,className:`relative flex min-h-[100svh] flex-col items-center justify-center overflow-hidden px-6 py-16 text-center select-none`,children:[
     (0,O.jsx)(h_,{}),
     o.map(e=>(0,O.jsx)(m_,{x:e.x,y:e.y,count:14,spread:130,seed:e.id%11},e.id)),
-    (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-semibold tracking-wider text-gold mb-1.5`,children:`॥ શ્રી ગણેશાય નમઃ ॥ · ॥ શ્રી ખમાલાઈ માતાજી પ્રસન્ન ॥`}),
+    (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-semibold tracking-wider text-gold mb-1.5`,children:`॥ શ્રી ગણેશાય નમઃ ॥ · ॥ શ્રી ખમલાઈ માતાજી પ્રસન્ન ॥`}),
     (0,O.jsx)(Q.p,{className:`caps text-[0.72rem] text-gold tracking-widest font-bold sm:text-sm`,initial:{opacity:0,y:12},animate:e?{opacity:1,y:0}:{opacity:0,y:12},transition:{duration:1,ease:c},children:`સગાઇ રસમ`}),
     (0,O.jsx)(Q.p,{className:`font-serif mt-3 text-3xl sm:text-5xl font-semibold tracking-wide text-ink`,initial:{opacity:0,y:16},animate:e?{opacity:1,y:0}:{opacity:0,y:16},transition:{duration:1.1,delay:.15,ease:c},children:$.displayDate||`૧૩ નવેમ્બર ૨૦૨૬`}),
     (0,O.jsx)(Q.p,{className:`caps mt-2 text-sm sm:text-base text-sepia tracking-wide font-bold`,initial:{opacity:0},animate:e?{opacity:1}:{opacity:0},transition:{duration:1,delay:.2},children:$.timeLine||`સવારે ૯:૦૦ કલાકે (શુભ મુહૂર્ત)`}),
     (0,O.jsx)(Q.div,{style:{y:r,opacity:a},className:`mt-6 w-full max-w-sm sm:max-w-md`,children:(0,O.jsx)(Q.img,{src:y_,alt:`જશ અને ક્રિશા`,width:1024,height:1024,draggable:!1,className:`mx-auto w-full select-none`,initial:{opacity:0,scale:.96},animate:e?{opacity:1,scale:1}:{opacity:0,scale:.96},transition:{duration:1.4,delay:.3,ease:c}})}),
     (0,O.jsx)(Q.p,{className:`caps mt-6 max-w-md text-xs leading-[2] text-olive font-medium sm:text-sm`,initial:{opacity:0},animate:e?{opacity:1}:{opacity:0},transition:{duration:1,delay:.7},children:$.invitationLine||`સ્નેહી શ્રી, પરમકૃપાળુ પરમાત્મા તથા વડીલોના શુભ આશીર્વાદથી સુપુત્ર ના શુભ પ્રસંગે સ્નેહભર્યું આમંત્રણ...`}),
     (0,O.jsx)(Q.h1,{className:`script hero-couple-names mt-3 text-[3.15rem] leading-[1.15] text-ink sm:text-7xl`,initial:`hidden`,animate:l,children:`જશ & ક્રિશા`}),
-    (0,O.jsx)(`p`,{className:`caps mt-3 text-xs sm:text-sm text-sepia/90 tracking-wide font-semibold`,children:`શ્રી ખમાલાઈ માતાજી મંદિર, મણુંદ`}),
+    (0,O.jsx)(`p`,{className:`caps mt-3 text-xs sm:text-sm text-sepia/90 tracking-wide font-semibold`,children:$.venue?.name ? `${$.venue.name}, મણુંદ` : `શ્રી ખમલાઈ માતાજી મંદિર, મણુંદ`}),
     (0,O.jsxs)(Q.button,{type:`button`,onClick:e=>{e.stopPropagation(),d()},"aria-label":`કંકોતરી આગળ વાંચો`,className:`mt-8 flex min-h-14 flex-col items-center justify-end gap-2 px-8 pb-1`,initial:{opacity:0},animate:e?{opacity:1}:{opacity:0},transition:{duration:1,delay:1.8},whileTap:{scale:.95},children:[
       (0,O.jsx)(`span`,{className:`caps text-[0.56rem] tracking-wider text-sepia font-semibold`,children:`કંકોતરી વાંચો ↓`}),
       (0,O.jsx)(Q.span,{"aria-hidden":`true`,className:`size-2 rotate-45 border-b border-r border-sepia`,animate:{y:[0,4,0]},transition:{duration:1.6,repeat:1/0,ease:`easeInOut`}})
@@ -172,14 +172,14 @@ function r_(){
       ]}),
       (0,O.jsx)(`p`,{className:`text-xs sm:text-sm font-serif text-sepia/80 mt-1`,children:`Jash & Krisha`}),
       (0,O.jsxs)(Q.p,{className:`caps mt-6 text-xs text-sepia/90 font-medium`,initial:{opacity:0},whileInView:{opacity:1},viewport:{once:!0},transition:{duration:1.2,delay:.4},children:[$.dayLine,` · `,$.venue.name]}),
-      (0,O.jsx)(`p`,{className:`caps mt-3 text-xs sm:text-sm font-bold text-kumkum`,children:$.closing||`લિ. સમસ્ત પટેલ પરિવાર (મણુંદ & બલિસણા)`})
+      (0,O.jsx)(`p`,{className:`caps mt-3 text-xs sm:text-sm font-bold text-kumkum`,children:$.closing||`લિ. સમસ્ત પટેલ પરિવાર (મણુંદ & બાલીસણા)`})
     ]})
   ]});
 }function C_(){
-  let noteText = ($.invitation && $.invitation.note) || $.invitationNote || `પરમકૃપાળુ પરમાત્મા તથા કુળદેવી શ્રી ખમાલાઈ માતાજીના પરમ આશીર્વાદથી, પટેલ પરિવાર આપ સર્વે સ્નેહીજનો, વડીલો, સગા-સંબંધીઓને જશ અને ક્રિશાના શુભ સગાઈ પ્રસંગે પધારી આશીર્વાદ પાઠવવા હાર્દિક ભાવભર્યું નિમંત્રણ પાઠવે છે.`;
+  let noteText = ($.invitation && $.invitation.note) || $.invitationNote || `પરમકૃપાળુ પરમાત્મા તથા કુળદેવી શ્રી ખમલાઈ માતાજીના પરમ આશીર્વાદથી, પટેલ પરિવાર આપ સર્વે સ્નેહીજનો, વડીલો, સગા-સંબંધીઓને જશ અને ક્રિશાના શુભ સગાઈ પ્રસંગે પધારી આશીર્વાદ પાઠવવા હાર્દિક ભાવભર્યું નિમંત્રણ પાઠવે છે.`;
   let dayText = $.dayLine || `શુક્રવાર, ૧૩ નવેમ્બર ૨૦૨૬`;
   let timeText = $.timeLine || `સવારે ૯:૦૦ કલાકે (શુભ મુહૂર્ત)`;
-  let venueName = ($.venue && $.venue.name) || `શ્રી ખમાલાઈ માતાજી મંદિર`;
+  let venueName = ($.venue && $.venue.name) || `શ્રી ખમલાઈ માતાજી મંદિર`;
   let venueAddr = ($.venue && $.venue.address) || `મણુંદ, તાલુકો પાટણ, ગુજરાત - ૩૮૪૨૬૦`;
 
   return (0,O.jsxs)(`section`,{id:`invitation-details`,className:`px-6 py-16 text-center sm:py-24 max-w-3xl mx-auto`,children:[
@@ -198,7 +198,7 @@ function r_(){
     ]})
   ]});
 }function w_(){let e=Bg(),{scrollYProgress:t}=jg(),n=zg(t,{stiffness:140,damping:30,mass:.3}),r=Fg(n,e=>`${Math.min(1,Math.max(0,e))*100}%`);return e?null:(0,O.jsxs)(`div`,{"aria-hidden":`true`,className:`pointer-events-none fixed right-2 top-0 z-30 h-full w-px`,children:[(0,O.jsx)(`div`,{className:`absolute inset-0 bg-border/60`}),(0,O.jsx)(Q.div,{className:`absolute inset-x-0 top-0 h-full origin-top bg-gold`,style:{scaleY:n}}),(0,O.jsx)(Q.span,{className:`absolute -left-[3px] size-[7px] -translate-y-1/2 rounded-full bg-gold shadow-[0_0_0_4px_oklch(0.72_0.09_82/0.18)]`,style:{top:r}})]})}var T_=_wm.map??_w.mapImage??`./editable/assets/map.jpg`,E_=()=>{typeof navigator<`u`&&navigator.vibrate&&navigator.vibrate(10)};function D_(){
-  let venueName = ($.venue && $.venue.name) || `શ્રી ખમાલાઈ માતાજી મંદિર`;
+  let venueName = ($.venue && $.venue.name) || `શ્રી ખમલાઈ માતાજી મંદિર`;
   let venueAddr = ($.venue && $.venue.address) || `મણુંદ, જિલ્લો પાટણ, ગુજરાત ૩૮૪૨૬૦`;
 
   return (0,O.jsxs)(`section`,{id:`venue-section`,className:`px-6 pb-20 text-center sm:pb-28 max-w-4xl mx-auto`,children:[
@@ -300,7 +300,7 @@ function FamilySection_(){
               (0,O.jsx)(`p`,{className:`caps mt-3 text-[0.62rem] text-gold font-bold tracking-wider`,children:`સુપુત્ર`}),
               (0,O.jsx)(`p`,{className:`mt-2 text-base sm:text-lg text-ink/90 font-serif leading-relaxed font-medium`,children:groomParents})
             ]}),
-            (0,O.jsx)(`p`,{className:`family-location-tag`,children:`પટેલ પરિવાર • મણુંદ`})
+            (0,O.jsx)(`p`,{className:`family-location-tag`,children:$.family?.groomSide?.location||`પટેલ પરિવાર • મણુંદ`})
           ]
         }),
 
@@ -313,7 +313,7 @@ function FamilySection_(){
               (0,O.jsx)(`p`,{className:`caps mt-3 text-[0.62rem] text-gold font-bold tracking-wider`,children:`સુપુત્રી`}),
               (0,O.jsx)(`p`,{className:`mt-2 text-base sm:text-lg text-ink/90 font-serif leading-relaxed font-medium`,children:brideParents})
             ]}),
-            (0,O.jsx)(`p`,{className:`family-location-tag`,children:`પટેલ પરિવાર • બલિસણા`})
+            (0,O.jsx)(`p`,{className:`family-location-tag`,children:$.family?.brideSide?.location||`પટેલ પરિવાર • બાલીસણા`})
           ]
         })
       ]
